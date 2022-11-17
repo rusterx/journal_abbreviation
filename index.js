@@ -1,7 +1,7 @@
 var zoteroPane = Zotero.getActiveZoteroPane();
 var selectedItems = zoteroPane.getSelectedItems();
 
-var url = 'https://public-1251110281.cos.ap-shanghai.myqcloud.com/jnls.json';
+var url = 'https://github.com/rusterx/journal_abbreviation/raw/master/jnls.json';
 var data = Zotero.File.getContentsFromURL(url);
 var jnlList = JSON.parse(data);
 
