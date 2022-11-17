@@ -1,0 +1,6 @@
+{
+  "exclude": ["node_modules"],
+  "typeAcquisition": {
+    "include": ["D:/Downloads/archives/zotero-4.0/chrome/content/zotero/xpcom/"]
+  }
+}
